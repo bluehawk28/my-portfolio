@@ -1,0 +1,36 @@
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+  @media (max-width: 768px) { // Tablet
+    gap: 15px;
+  }
+
+  @media (max-width: 480px) { // Mobile
+    flex-direction: row;
+    gap: 10px;
+  }
+}
+
+li a {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px 10px;
+  transition: color 0.3s;
+
+  @media (max-width: 768px) { // Tablet
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+
+  @media (max-width: 480px) { // Mobile
+    font-size: 12px;
+    padding: 3px 6px;
+  }
+}
+
+li a:hover {
+  color: #0071e3;
+}

@@ -1,0 +1,38 @@
+.contact {
+    padding: 100px 20px;
+    text-align: center;
+    background: #ffffff;
+  }
+
+  .contact-icons{
+   .icons{
+    margin-right: 12px;
+   }
+   
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  .contact p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  .contact a {
+    color: #0071e3;
+    text-decoration: underline;
+    transition: color 0.3s;
+  }
+  
+  
+
+  .contact a:hover {
+    color: #005bb5;
+  }
+  

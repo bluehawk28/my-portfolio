@@ -1,0 +1,33 @@
+.skills-sphere {
+    padding: 100px 20px;
+    text-align: center;
+    background: #f8f8f8;
+  }
+  
+  .skills-sphere h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 40px;
+  }
+  
+  .tagcloud-container {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 18px;
+    color: #0071e3;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tagcloud-container span {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .tagcloud-container span:hover {
+    color: #005bb5;
+  }
+  
